@@ -1,6 +1,7 @@
 # mk
 
-> A Vue.js project
+> 反正也不知道叫啥名字
+> 随便写一写算了
 
 ## Build Setup
 

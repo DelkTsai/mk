@@ -1,22 +1,48 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div id="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="glyphicon glyphicon-time"></i>
+          计划板
+        </a>
+        <ul class="nav navbar-nav">
+          <li><router-link to="/home">首页</router-link></li>
+          <li><router-link to="/time-entries">计划列表</router-link></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="text-center">已有时长</h1>
+          </div>
+
+          <div class="panel-body">
+            <h1 class="text-center">{{ time }} 小时</h1>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <router-view></router-view>
+      </div>
+    </div>
   </div>
+
+
+
+
 </template>
 
 <script>
-export default {
-  name: 'app'
+  export default {
+  name: 'app',
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
