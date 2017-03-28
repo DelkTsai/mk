@@ -17,7 +17,7 @@ export default {
       seen:true,
       msg: 'hehedale',
       innerHtml:'<button>htmmmml</button>'
-    }
+    }你知不知道你git   安装在哪里  我看下
   },
   methods:{
     change:function () {
