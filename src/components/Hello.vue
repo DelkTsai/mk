@@ -16,7 +16,7 @@ export default {
     return {
       seen:true,
       msg: 'hehedale',
-      innerHtml:'<button>html</button>'
+      innerHtml:'<button>htmmmml</button>'
     }
   },
   methods:{
