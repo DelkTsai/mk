@@ -9,6 +9,9 @@ import ElementUI from 'element-ui'
 /** 默认主题 */
 // import 'element-ui/lib/theme-default/index.css'
 
+import CircleMenu from 'vue-circle-menu'
+Vue.component('CircleMenu', CircleMenu)
+
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false

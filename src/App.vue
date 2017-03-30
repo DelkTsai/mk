@@ -2,6 +2,11 @@
   <div id="app">
     <router-view></router-view>
     <el-button @click.native="startHacking">Let's do it</el-button>
+      <circle-menu type="right" :number='3'  mask='black' btn colors="[ 'rgb(255, 255, 102)', '#A7425C', '#FFE26F', 'F3825F', '#F19584']">
+    <a slot="item_1" class="fa fa-twitter fa-lg"></a>
+    <a slot="item_2" class="fa fa-weixin fa-lg"></a>
+    <a slot="item_3" class="fa fa-weibo fa-lg"></a>
+  </circle-menu>
   </div>
 </template>
 
