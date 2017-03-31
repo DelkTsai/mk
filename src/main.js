@@ -11,6 +11,8 @@ import ElementUI from 'element-ui'
 
 //vue滑块
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+//markdown
+import VueSimplemde from 'vue-simplemde'
 //vue圆形菜单
 import CircleMenu from 'vue-circle-menu'
 Vue.component('CircleMenu', CircleMenu)
@@ -18,6 +20,7 @@ Vue.component('CircleMenu', CircleMenu)
 
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
+Vue.use(VueSimplemde)
 
 Vue.config.productionTip = false
 

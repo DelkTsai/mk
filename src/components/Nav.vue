@@ -7,7 +7,8 @@
         <el-menu-item index="2-2">选项2</el-menu-item>
         <el-menu-item index="2-3">选项3</el-menu-item>
       </el-submenu>
-      <el-menu-item index="/scroll"><a href="">订单管理</a></el-menu-item>
+      <el-menu-item index="/scroll">轮播</el-menu-item>
+      <el-menu-item index="/md">markdown</el-menu-item>
     </el-menu>
 </template>
 

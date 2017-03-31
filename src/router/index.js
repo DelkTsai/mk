@@ -4,6 +4,7 @@ import Hello from '@/components/Hello'
 import Home from '@/components/Home'
 import Nav from '@/components/Nav'
 import scrollcontainer from '@/components/scroll-container'
+import Md from '@/components/Md'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       path:'/scroll',
       name:'滑块',
       component:scrollcontainer,
+    },
+    {
+      path:'/md',
+      name:'md',
+      component:Md,
     }
 
   ]
