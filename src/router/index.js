@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Home from '@/components/Home'
 import Nav from '@/components/Nav'
+import scrollcontainer from '@/components/scroll-container'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path:'/',
       name:'导航。',
       component:Nav,
+    },
+    {
+      path:'/scroll',
+      name:'滑块',
+      component:scrollcontainer,
     }
 
   ]

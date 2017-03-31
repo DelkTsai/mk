@@ -9,9 +9,14 @@ import ElementUI from 'element-ui'
 /** 默认主题 */
 // import 'element-ui/lib/theme-default/index.css'
 
+//vue滑块
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+//vue圆形菜单
 import CircleMenu from 'vue-circle-menu'
 Vue.component('CircleMenu', CircleMenu)
 
+
+Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
