@@ -18,6 +18,7 @@
     "vue-awesome-swiper": "^2.4.0",
     "vue-router": "^2.1.2",
     "vue-simplemde": "^0.3.7",
+    "vue-waterfall": "^1.0.5",
     "vuex": "^2.0.0-rc.6"
   },
   "devDependencies": {

@@ -9,6 +9,7 @@
       </el-submenu>
       <el-menu-item index="/scroll">轮播</el-menu-item>
       <el-menu-item index="/md">markdown</el-menu-item>
+      <el-menu-item index="/water">water</el-menu-item>
     </el-menu>
 </template>
 

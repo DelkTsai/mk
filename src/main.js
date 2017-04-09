@@ -18,6 +18,7 @@ import CircleMenu from 'vue-circle-menu'
 Vue.component('CircleMenu', CircleMenu)
 
 
+
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
 Vue.use(VueSimplemde)

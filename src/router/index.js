@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Nav from '@/components/Nav'
 import scrollcontainer from '@/components/scroll-container'
 import Md from '@/components/Md'
+import Water from '@/components/Water'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path:'/md',
       name:'md',
       component:Md,
+    },
+    {
+      path:'/water',
+      name:'water',
+      component:Water,
     }
 
   ]
