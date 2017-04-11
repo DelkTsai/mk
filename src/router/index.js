@@ -21,22 +21,23 @@ export default new Router({
       path:'/',
       name:'导航。',
       component:Nav,
-    },
-    {
-      path:'/scroll',
-      name:'滑块',
-      component:scrollcontainer,
-    },
-    {
-      path:'/md',
-      name:'md',
-      component:Md,
-    },
-    {
-      path:'/water',
-      name:'water',
-      component:Water,
+      children:[
+        {
+          path:'/scroll',
+          name:'滑块',
+          component:scrollcontainer,
+        },
+        {
+          path:'/md',
+          name:'md',
+          component:Md,
+        },
+        {
+          path:'/water',
+          name:'water',
+          component:Water,
+        }
+      ]
     }
-
   ]
 })

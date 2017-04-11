@@ -1,4 +1,5 @@
 <template>
+  <div>
     <el-menu :router="rout" theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       <el-menu-item index="1" id="h">主页</el-menu-item>
       <el-submenu index="/home">
@@ -11,6 +12,8 @@
       <el-menu-item index="/md">markdown</el-menu-item>
       <el-menu-item index="/water">water</el-menu-item>
     </el-menu>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
