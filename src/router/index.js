@@ -5,6 +5,8 @@ import Home from '@/components/Home'
 
 
 Vue.use(Router)
+const User={template:'<div>user-{{$route.params.id}}</div>'}
+
 
 export default new Router({
   routes: [
@@ -16,6 +18,10 @@ export default new Router({
       path:'/Home',
       name:'home-page',
       component:Home
+    },
+    {
+      path: '/user/:id',
+      component: User
     }
   ]
 })

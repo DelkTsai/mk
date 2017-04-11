@@ -7,8 +7,8 @@
           计划板
         </a>
         <ul class="nav navbar-nav">
-          <li><router-link to="/home">首页</router-link></li>
-          <li><router-link to="/time-entries">计划列表</router-link></li>
+          <li><router-link to="/user/foo">foo</router-link></li>
+          <li><router-link to="/user/boo">boo</router-link></li>
         </ul>
       </div>
     </nav>
